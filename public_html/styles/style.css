@@ -1,0 +1,191 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+html {
+    background-color: #E4E4E4;
+    color: #4c4c4c;
+}
+body {
+    font:  12px 'Slabo 27px', serif;
+    background-color: transparent;
+}
+a{
+    text-transform: capitalize;
+}
+h2, h3 {
+    text-transform: uppercase;
+}
+.container-fluid {
+    margin-top: 10px;
+}
+
+#section{
+    margin-bottom: 20px;
+}
+
+/*textarea*/
+aside.panel .panel-heading h3 {
+    color: #1095d2;
+    text-align: center;
+}
+/*end textarea*/
+
+/*calendar*/
+.responsive-calendar{
+    border: 1px solid #4c4c4c;
+    border-radius: 5px;
+}
+.responsive-calendar hr{
+    margin-top: 10px;
+}
+.controls {
+    margin-top: 10px;
+}
+.pull-left, .pull-right{
+    margin: 0 2px;
+    border-radius: 15px;
+}
+.pull-left .btn .icon-chevron-left, .pull-right .btn  .icon-chevron-right{
+    color: #000;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.day-headers{
+    background-color: #269abc;
+    color: #fff;
+}
+.days{
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/*end calendar*/
+
+/*buttons*/
+.margin-top{
+    margin-top: 15px;
+}
+.inline-width {
+    width: 80%;
+    margin-bottom: 20px;
+}
+.green, .red, .grey {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.green {
+    color: limegreen;
+}
+.red {
+    color: red;
+}
+.grey{
+    color: grey;
+}
+/*end buttons*/
+
+/*checkbox and radio button*/
+.header:first-of-type h2 {
+    margin-top: 5px;
+}
+/*end checkbox and radio button*/
+
+/*slider*/
+#slider{
+    background-color: #e3e3e3;
+    border: 1px solid #4c4c4c;
+    border-radius: 10px;
+}
+.item {
+    padding: 10px 5px 10px;
+    height: 150px;
+}
+.carousel-inner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+.carousel-indicators{
+    bottom: 0;
+}
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+/*end slider*/
+
+#section-footer{
+    margin-top: 20px;
+}
+
+/*stars*/
+#rate{
+    background-color: #FFF;
+    border-radius: 15px;
+}
+#rate h3 {
+    margin-top: 10px;
+    color: #f00;
+}
+#star-rate a{
+    color: #4c4c4c;
+    font-size: 20px;
+}
+#star-rate a:hover{
+    color: #0f0f0f;
+}
+/*end stars*/
+
+/*buttons*/
+#buttons{
+    /*background-color: #d5d5d5;*/
+}
+#buttons a {
+    color: #000;
+    margin: 5px;
+    background-color: #d5d5d5;
+    border-radius: 10px;
+    border: 1px solid #4c4c4c;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgb(145, 145, 145);
+    background: -moz-linear-gradient(90deg, rgb(145, 145, 145) 43%, rgb(111, 111, 111) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(145, 145, 145) 43%, rgb(111, 111, 111) 100%);
+    background: -o-linear-gradient(90deg, rgb(145, 145, 145) 43%, rgb(111, 111, 111) 100%);
+    background: -ms-linear-gradient(90deg, rgb(145, 145, 145) 43%, rgb(111, 111, 111) 100%);
+    background: linear-gradient(0deg, rgb(145, 145, 145) 43%, rgb(111, 111, 111) 100%);
+    -webkit-box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 0px rgba(50, 50, 50, 0.75);
+
+
+}
+/*end buttons*/
+
+/*footer*/
+footer.row{
+    margin-top: 20px;
+}
+#footer-aside input{
+    margin-bottom: 20px;
+}
+#footer-section  .col-md-5{
+    border: 1px solid #4c4c4c;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+#footer-section p{
+    text-transform: capitalize;
+}
+#footer-section img{
+    float: right;
+}
+#footer-section .lead{
+    display: inline-block;
+}
+.progress{
+    height: 60px;
+}
+/*end footer*/

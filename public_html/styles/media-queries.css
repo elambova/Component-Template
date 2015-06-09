@@ -1,0 +1,218 @@
+@media screen and (max-width: 960px) {
+    html{
+        /*blue*/
+        background-color: #1095d2;
+    }
+}
+@media screen and (max-width: 910px) {
+    body{
+        /*gray*/
+        background-color: #d4d4d4;
+    }
+    .JsDatePickBox .boxMainInner { 
+        width:75%;
+    }
+    #slider{
+        width: 75%;
+    }
+    #sale-image {
+        display: none;
+    }
+}
+@media screen and (max-width: 850px) {
+    body{
+        /*bordo*/
+        background-color: #4a1616;
+    }
+    #menu button {
+        margin-left: 0;
+    }
+    #search {
+        width: 35%;
+    }
+    .JsDatePickBox .boxMainInner { 
+        width:85%;
+    }
+    #error-section p, #success-section p {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 750px) {
+    body{
+        /*dark yellow*/
+        background-color: #ddac2c;
+    }
+    .JsDatePickBox .boxMainInner { 
+        width:90%;
+    }
+    #menu button {
+        margin-right: 0;
+    }
+    #search {
+        width: 40%;
+    }
+    #holder-calendar {
+        width: 50%;
+    }
+    #right-aside {
+        width: 22%;
+    }
+    .JsDatePickBox {
+        width: 75%;
+    }
+    #slider button {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #holder-images {
+        width: 80%;
+    }
+    #holder-images img {
+        width: 26%;
+    }
+    #star-rate img {
+        margin-left: 0;
+    }
+    #footer-aside {
+        width: 35%;
+    }
+    #footer-section {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 680px) {
+    body{
+        /*purple*/
+        background-color: #590ce3
+    }
+    #menu button {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 1%;
+    }
+    #boxes {
+        width: 25%;
+    }
+    #slider {
+        width: 74%;
+        margin-bottom: 5%;
+    }
+    #menu {
+        width: 55%;
+    }
+    #search {
+        width: 45%;
+    }
+    #holder-calendar {
+        width: 55%;
+    }
+    #right-aside {
+        width: 25%;
+    }
+    #footer-aside button {
+        width: 43%;
+    }
+}
+@media screen and (max-width: 630px) {
+    body{
+        /*green*/
+        background-color: #3add2c;
+    }
+    #header, #content, #section, footer {
+        width: 99%;
+    }
+    #blog, #boxes, #rate {
+        display: none;
+    }
+    #slider, #buttons, #footer-aside, #footer-section {
+        width: 99%;
+        margin-bottom: 5%;
+    }
+    #header-aside {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #footer-aside input, #footer-aside button {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 570px) {
+    body{
+        /*pink*/
+        background-color: #ce2ea6;
+    }
+    #search {
+        display: none;
+    }
+    #menu {
+        width: 99%;
+        text-align: center;
+    }
+
+    #menu button {
+        margin-left: 8%;
+    }
+    .JsDatePickBox .boxMainInner {
+        width: 98%;
+    }
+    #right-aside {
+        width: 30%;
+    }
+    .JsDatePickBox {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    body{
+        /*orange*/
+        background-color: #e34d0c;
+    }
+    
+    .JsDatePickBox {
+        padding-left: 10%;
+        width: 90%;
+    }
+    #menu button {
+        margin-left: 5%;
+    }
+    #right-aside {
+        width: 35%;
+    }
+}
+@media screen and (max-width: 435px) {
+    body{
+        /*red-gray*/
+        background-color: #644d4d;
+    }
+    #holder-calendar {
+        width: 60%;
+    }
+    .JsDatePickBox {
+        padding-left: 25%;
+        width: 95%;
+    }
+    #menu button {
+        margin-left: 3%;
+    }
+    #right-aside {
+        margin-top: 5%;
+        width: 99%;
+    }
+    #right-aside button {
+        width: 60%;
+    }
+    #right-aside img {
+        width: 5%;
+        margin-right: 25%;
+    }
+}
+@media screen and (max-width: 385px) {
+    #holder-calendar {
+        width: 65%;
+    }
+    #slider button {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}
